@@ -1,0 +1,90 @@
+
+/* Center the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    text-align: center;
+    margin: 0;
+}
+
+/* Center heading */
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+/* Center main content */
+main {
+    max-width: 700px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 0;
+}
+
+/* Center total students */
+.summary {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000012;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center welcome message */
+.notice {
+    background: #dbeafe;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Display cards vertically in the center */
+.student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Center all student details */
+.student-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px #00000010;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.student-card h3 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.student-card p {
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Highlight first student */
+.highlight {
+    border: 2px solid #16a34a;
+    background: #f0fdf4;
+}
+
+/* Center footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    margin-top: 40px;
+}
